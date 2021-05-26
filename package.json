@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8",
+		"@types/socket.io-client": "^3.0.0"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "eeaf4b6e-cabd-46f2-93d9-9cc28e6b31ce"
+	},
+	"author": "Iain Kettles",
+	"dependencies": {
+		"socket.io-client": "^4.1.2"
+	}
+}
