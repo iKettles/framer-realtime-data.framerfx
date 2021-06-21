@@ -1,9 +1,9 @@
-import socketIOClient, { Socket } from "socket.io-client"
+import { io, Socket } from "socket.io-client"
 
 export default {
     connect(endpoint: string): Promise<Socket> {
         return new Promise((resolve, reject) => {
-            const socket = socketIOClient(endpoint)
+            const socket = io(endpoint)
             socket.on("connect", () => {
                 console.log(`[FramerRealtimeData] Socket connected`)
                 return resolve(socket)
