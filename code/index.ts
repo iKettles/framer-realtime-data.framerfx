@@ -1,7 +1,7 @@
 import { RenderTarget } from "framer"
 import SocketIO from "./lib/SocketIO"
 
-const SOCKET_SERVER_URL = "http://localhost"
+const SOCKET_SERVER_URL = "http://localhost:1338"
 
 async function startSocketConnection() {
     if (
